@@ -20,5 +20,9 @@ def factorial(num):
 		   factorial = factorial*i
 	   return("The factorial of",num,"is",factorial)
 	   
-print factorial(5)
-print factorial(8)
+	   
+def askfornumber():
+	num = int(input("Enter a number: "))
+	print factorial(num)
+	askfornumber()
+askfornumber()
