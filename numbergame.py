@@ -26,6 +26,6 @@ def askfornumber():
 	print factorial(num)
 	askfornumber()
 
-print("get ready for numbers")
+print("get ready for numbers to be asked")
 askfornumber()
 
