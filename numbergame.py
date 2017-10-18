@@ -25,4 +25,7 @@ def askfornumber():
 	num = int(input("Enter a number: "))
 	print factorial(num)
 	askfornumber()
+
+print("get ready for numbers")
 askfornumber()
+
